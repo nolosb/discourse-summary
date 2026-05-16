@@ -1,0 +1,27 @@
+{
+  "name": "discourse-summary",
+  "version": "0.1.0",
+  "description": "MCP server that fetches Discourse data and summarizes it through a self-hosted LLM, so Claude never sees the raw posts.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "discourse-summary": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "discourse",
+    "mcp",
+    "llm",
+    "summary"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^4.4.3"
+  }
+}
