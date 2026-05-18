@@ -19,7 +19,9 @@ Use the official Discourse MCP server to generate a User API Key:
 ```bash
 npx @discourse/mcp@latest generate-user-api-key \
   --site https://your-site.example.com \
-  --save-to ~/mcps/my_profile.json
+  --save-to ~/mcps/my_profile.json \
+  --scopes "read" \
+  --application-name "Discourse Summary"
 ```
 
 ### Step 3: Add LLM Config to Your Profile
