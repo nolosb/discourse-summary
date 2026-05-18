@@ -118,9 +118,9 @@ Flexible time ranges (ignored for topic scope):
 - `"2025-01-01 to 2025-06-01"`
 - Default: 6 months
 
-### Focus
+### Prompt
 
-Optional lens for the analysis: `"collaboration style"`, `"technical contributions"`, `"decisions made"`, etc.
+Each scope has a built-in analysis prompt tuned for that kind of data. The prompt can be overridden for more specific use cases.
 
 ## How It Works
 
